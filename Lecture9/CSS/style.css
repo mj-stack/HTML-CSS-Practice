@@ -1,0 +1,161 @@
+.first-div {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.second-div {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  border-radius: 50px;
+}
+
+.third-div {
+  width: 300px;
+  border: 1px solid gray;
+}
+
+.third-div-para {
+  margin-left: 10px;
+}
+
+.third-div-button {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.fourth-div {
+  width: 330px;
+  background-color: black;
+  height: 100px;
+}
+
+.fourth-div-para1 {
+  color: white;
+  font-size: 20px;
+  font-family: Arial;
+  padding-left: 10px;
+  padding-top: 15px;
+  margin-bottom: 0;
+}
+
+.fourth-div-para2 {
+  color: gray;
+  padding-left: 10px;
+  font-size: 15px;
+  padding-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.twitter-div {
+  height: 60px;
+  width: 365px;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.45);
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.twitter-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.twitter-input {
+  vertical-align: middle;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+  outline: none;
+}
+
+.tweet-button {
+  vertical-align: middle;
+  height: 30px;
+  width: 70px;
+  background-color: rgb(0, 68, 255);
+  color: white;
+  font-weight: bold;
+  font-family: Arial;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.cat-info {
+  height: 250px;
+  width: 180px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.cat-img {
+  height: 150px;
+  width: 180px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cat-name {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.cat-friend {
+  font-family: Arial;
+  font-size: 12px;
+  color: gray;
+  margin: 0;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.cat-button {
+  font-family: Arial;
+  margin-top: 7px;
+  margin-left: 5px;
+  height: 30px;
+  width: 100px;
+  background-color: rgb(8, 117, 191);
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.google-div {
+  text-align: center;
+  border: 2px solid black;
+}
+
+.google-logo {
+  height: 120px;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.google-input {
+
+}
+
+.google-search {
+
+}
+
+.google-lucky {
+
+}
