@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-div {
+    border: 1px solid red;
+    height: 78px;
+    width: 398px;
+    vertical-align: top;
+}
+
+.img-div {
+    height: 78px;
+    width: 58px;
+    border: 1px solid blue;
+    display: inline-block;
+}
+
+.cat-img {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.info-div {
+    display: inline-block;
+    border: 1px solid blue;
+    height: 78px;
+    width: 260px;
+}
+.follow-div {
+    display: inline-block;
+    border: 1px solid blue;
+    height: 80px;
+}

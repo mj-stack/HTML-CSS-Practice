@@ -1,0 +1,130 @@
+/* Main Div 1 */
+
+.main-div1 {
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+
+.div1 {
+    background-color: aqua;
+}
+
+.div2 {
+    background-color: pink;
+}
+
+/* Main Div 2 */
+
+.main-div2 {
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+
+.div3 {
+    background-color: aqua;
+}
+
+.div4 {
+    background-color: pink;
+}
+
+.div5 {
+    background-color: aqua;
+}
+
+.main-div3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.div6 {
+    background-color: pink;
+}
+
+.div7 {
+    background-color: pink;
+}
+
+.div8 {
+    background-color: pink;
+}
+
+.div9 {
+    background-color: pink;
+}
+
+.div10 {
+    background-color: pink;
+}
+
+.div11 {
+    background-color: pink;
+}
+
+.div12 {
+    background-color: pink;
+}
+
+.div13 {
+    background-color: pink;
+}
+
+/* Cat project */
+
+.main-cat-div {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;
+}
+
+.cat-div {
+    width: 200px;
+    height: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+}
+
+.cat-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cat-name {
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.mutual-friend-img {
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.mutual-friend {
+    margin: 0;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: Roboto;
+    color: gray;
+    vertical-align: 4px;
+}
+
+.add-friend {
+    background-color: rgb(0, 60, 255);
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
