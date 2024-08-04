@@ -1,0 +1,290 @@
+/* <!-- 12a. Create a flexbox with 2 items. Widths = 200px | 75px --> */
+.main-div1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.div1 {
+    background-color: lightblue;
+    width: 200px;
+}
+
+.div2 {
+    background-color: lightpink;
+    width: 75px;
+}
+
+/* <!-- 12b. A flexbox with 3 items. Width = 50px | remaining space | 75px --> */
+.main-div2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.div3 {
+    background-color: lightblue;
+    width: 50px;
+}
+
+.div4 {
+    background-color: lightpink;
+    flex: 1;
+}
+
+.div5 {
+    background-color: lightblue;
+    width: 75px;
+}
+
+/* <!-- 12c. A flexbox with 4 items, spread evenly across the page --> */
+.main-div3 {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+
+    justify-content: space-between;
+}
+
+.div6 {
+    background-color: lightblue;
+}
+
+.div7 {
+    background-color: lightpink;
+}
+
+.div8 {
+    background-color: lightblue;
+}
+
+.div9 {
+    background-color: lightpink;
+}
+
+/* <!-- 12d. Create the flexbox below the height = 50px and a gray border --> */
+.main-div4 {
+    height: 50px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div10 {
+    background-color: lightblue;
+}
+
+.div11 {
+    background-color: lightpink;
+}
+
+
+/* <!-- Challenge Exercise -->
+    <!-- 12e. Create the design --> */
+    * {
+        margin: 0;
+    }
+
+    .main-div5 {
+        height: 100px;
+        width: 400px;
+        border: 1px solid gray;
+        border-radius: 4px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .first-section {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .home-div {
+        font-size: 16px;
+        font-family: Arial, Roboto;
+    }
+
+    .second-section {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .notification-div {
+        font-size: 16px;
+        font-family: Arial, Roboto;
+    }
+
+    .third-section {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .message-div {
+        font-size: 16px;
+        font-family: Arial, Roboto;
+    }
+
+    .count {
+        height: 25px;
+        width: 25px;
+        /* border: 1px solid black; */
+        border-radius: 15px;
+        font-size: 13px;
+        font-weight: bold;
+        background-color: rgb(0, 110, 201);
+        color: white;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /* <!-- 12. Create the design --> */
+    .navbar-div {
+        height: 60px;
+        background-color: blueviolet;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .left-section {
+        padding-left: 20px;
+        color: white;
+        font-size: 16px;
+        font-family: Arial;
+        font-weight: bold;
+    }
+
+    .search-bar {
+        width: 600px;
+        height: 30px;
+        border-radius: 15px;
+        border: none;
+        padding-left: 20px;
+        outline: none;
+    }
+
+    .right-section {
+        padding-right: 20px;
+    }
+
+    .download-button {
+        height: 30px;
+        width: 100px;
+        border: 1px solid white;
+        color: white;
+        background-color: blueviolet;
+        border-radius: 2px;
+        font-size: 15px;
+        font-family: Arial;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .download-button:hover {
+        background-color: rgb(154, 78, 224);
+    }
+    .download-button:active {
+        background-color: rgb(164, 111, 214);
+    }
+
+
+    /* <!-- 12g. Create this design --> */
+    .cat-social {
+        height: 200px;
+        width: 400px;
+        /* border: 1px solid black; */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .cat1 {
+        height: 50px;
+        /* border: 1px solid black; */
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        /* display: grid;
+        grid-template-columns: 70px 1fr 100px; */
+    }
+
+    .img-div {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .cat-img {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 25px;
+    }
+
+    .info-div {
+        flex: 1;
+
+        font-size: 14px;
+        font-family: Arial;
+    }
+
+    .follow-div {
+        padding-left: 10px;
+        padding-right: 10px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .follow-button {
+        height: 30px;
+        width: 70px;
+        background-color: rgb(43, 86, 226);
+        color: white;
+        border:  none;
+        border-radius: 4px;
+    }
+
+    .cat2{
+        height: 50px;
+        /* border: 1px solid black; */
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        /* display: grid;
+        grid-template-columns: 70px 1fr 100px; */
+    }
+
+    .cat3 {
+        height: 50px;
+        /* border: 1px solid black; */
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        /* display: grid;
+        grid-template-columns: 70px 1fr 100px; */
+    }
