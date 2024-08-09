@@ -1,0 +1,195 @@
+/* <!-- 13a. Create a flexbox with 2 elements (width 100px and 200px). Then make the first element a flexbox to create this design. --> */
+.main-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-div1 {
+    width: 100px;
+    height: 50px;
+    background-color: lightblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1 {
+    background-color: black;
+    color: white;
+}
+
+.side-div2 {
+    width: 200px;
+    height: 50px;
+
+    background-color: lightpink;
+}
+
+/* <!-- 13b. Similar to exercise 13a. use nested flexbox to create the design below --> */
+
+.main-div2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-div3 {
+    width: 100px;
+    height: 50px;
+    background-color: lightblue;
+}
+
+.side-div4 {
+    width: 200px;
+    height: 50px;
+
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side-div5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row3, .row2 {
+    background-color: black;
+    color: white;
+}
+
+
+/* <!-- Challenge Exercise --> */
+    /* <!-- 13c. and 13d. --> */
+
+    .main-div3 {
+        height: 120px;
+        width: 350px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .side-div6 {
+        height: 20px;
+    }
+
+    .all-inboxes {
+        margin: 0;
+        margin-left: 10px;
+        margin-top: 5px;
+        font-size: 13px;
+        font-family: Robto;
+        color: gray;
+    }
+
+    .side-div7 {
+        flex: 1;
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .side-div8 {
+        width: 70px;
+    }
+
+    .profile-img {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .side-div9 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .side-div10 {
+        display: flex;
+        flex-direction: row;
+
+        padding-top: 15px;
+    }
+
+    .side-div12 {
+        flex: 1;
+    }
+
+
+    /* <!-- 13e. Make a few copies of the above exercise --> */
+    .main-div4 {
+        height: 400px;
+        width: 350px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+
+    /* <!-- 13f. and 13g --> */
+    .main-div5 {
+        height: 200px;
+        width: 400px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .acct-info {
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img-sec {
+        width: 80px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .acct-info-sec {
+        flex: 1;
+    }
+
+    .vid-info {
+        flex: 1;
+    }
+
+    .video-link {
+        height: 100px;
+        width: 300px;
+        border: 1px solid rgb(194, 194, 194);
+        margin-left: 80px;
+        border-radius: 15px;
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .blank-space {
+        width: 150px;
+        height: 100px;
+        background-color: rgb(194, 194, 194);
+        border-radius: 14px 0 0 14px;
+    }
+
+    .video-details {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        padding-left: 10px;
+    }
