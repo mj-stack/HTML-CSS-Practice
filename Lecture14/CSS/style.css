@@ -1,0 +1,117 @@
+/* <!-- 14a. Create an element that sticks to the page when scrolling (20px from the bottom and 20px from the right) --> */
+
+/* body {
+    padding-bottom: 1000px;
+}
+
+.main-div {
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+} */
+
+/* <!-- 14b. Create a sidebar on the right side of the page, width = 100px --> */
+
+/* .right-sidebar {
+    background-color: green;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+} */
+
+
+/* <!-- 14c. Create an element that covers the entire page (0px on all sides) and has background-color black --> */
+
+/* .black-background {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+} */
+
+
+/* <!-- Challenge Exercise --> */
+/* <!-- 14d. We'll create a modal --> */
+
+/* .right-sidebar2 {
+    background-color: green;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+}  */
+
+/* .another-element {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    height: 150px;
+    width: 400px;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 10px;
+} */
+
+/* .navbar {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(204, 203, 203);
+    align-items: center;
+}
+
+.left-sect {
+    width: 1150px;
+    align-items: center;
+    display: flex;
+}
+
+.right-sect {
+    flex: 1;
+    align-items: center;
+} */
+
+
+/* <!-- 14f. Create the double sidebar from discord --> */
+
+.left-sidebar {
+    background-color: rgb(40, 40, 40);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-sidebar {
+    background-color: #424242;
+    position: fixed;
+    top: 0;
+    left: 80px;
+    bottom: 0;
+    width: 180px;
+}
